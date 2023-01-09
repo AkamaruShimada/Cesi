@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://images7.alphacoders.com/601/601969.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 100%;
+  background-size: 1920px;
+}
+
+#inserer {
+  background-color: #c02121;
+  width: 800px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  position: center;
+  margin: 0px 30%;
+}
+
+#querry {
+  all: unset;
+  font: 1rem 'Fira Sans', sans-serif;
+  color: #000000;
+  height: 100%;
+  width: 100%;
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 0.9;
+}
+
+#entrer {
+  background-color: #c02121;
+  width: 200px;
+  height: 44px;
+  border-radius: 5px;
+  position: bottom;
+  margin: 0px 44.5%;
+}

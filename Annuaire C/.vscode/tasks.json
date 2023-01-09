@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build",
+            "command": "gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "main.c",
+                "-o",
+                "${workspaceFolder}\\annuaire.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compilateur : gcc.exe"
+        }
+    ]
+}
