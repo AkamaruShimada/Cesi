@@ -38,6 +38,22 @@ function getEmployer($id){
     sendJSON($id);
 
 }
+
+function postBadge($id){
+    $pdo = getConexion();
+    $req = "INSERT INTO Id_badge (Badge) VALUES (:id)";
+    $stmt = $pdo->prepare($req);
+    $stmt->bindValue(":id",$id,PDO::PARAM_INT);
+    $stmt->execute();
+    $id = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $stmt->closeCursor();
+    sendJSON($badges);
+
+}
+
+
+
+
 function getConexion(){
     $servername="localhost";
     $sqluser="dibdd";
