@@ -1,0 +1,113 @@
+body {
+  background-image: url("https://photos.tf1.fr/1920/1080/cover-showpage-meteo-2020-5de7b9-964451-0@1x.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 0%;
+  background-size: 1920px;
+}
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin-top: 100cm;
+}
+
+#chercher {
+  background-color: #3b8bc8;
+  width: 800px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  position: center;
+  margin: 0px 30%;
+}
+
+#query {
+  all: unset;
+  font: 1rem 'Fira Sans', sans-serif;
+  color: #000000;
+  height: 100%;
+  width: 100%;
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 0.9;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: #000000;
+  fill: currentColor;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+#text {
+  position: absolute;
+  left: 100px; top: 20px;
+}
+#query2 {
+  all: unset;
+  font: 25px 'Fira Sans', sans-serif;
+  color: #000000;
+  height: 100%;
+  width: 100%;
+}
+#graph {
+  background-color: #3b8bc8;
+  width: 200px;
+  height: 44px;
+  border-radius: 5px;
+  position: absolute;
+  left: 100px; top: 50px;
+  margin: 0px 2%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  font-family: sans-serif;
+  background: #347db6;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  display:inline-flex;
+}
+th {
+  font-family: sans-serif;
+  border-bottom: 1px solid #364043;
+  color: #cca934;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #3577ab;
+}

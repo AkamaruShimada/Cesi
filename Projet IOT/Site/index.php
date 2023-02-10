@@ -3,10 +3,6 @@
 <title>Pole Emplois</title>
 
 <head>
-
-
-
-
   <?php
   include ("db_connect.php");
 
@@ -75,8 +71,6 @@ while($row = mysqli_fetch_row($result)){
   <?php
 }
 ?>
-
-
 
 </table>
 

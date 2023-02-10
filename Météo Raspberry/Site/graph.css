@@ -1,0 +1,31 @@
+canvas {
+    max-width: 700px;
+    max-height: 210px;
+    float: bottom;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(4, 137, 154);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: 100px;
+}
+
+
+body {
+    background-image: url("https://photos.tf1.fr/1920/1080/cover-showpage-meteo-2020-5de7b9-964451-0@1x.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0%;
+    background-size: 1920px;
+}
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
